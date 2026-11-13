@@ -1,0 +1,100 @@
+@charset"UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    }
+   
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 50px;
+        padding: 1px;  
+        background-color: #CCFFD1; 
+    }
+    span{
+        color: #08B858;
+        text-decoration: underline; 
+    }
+    header h1{
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    header p{
+        font-size: 15px;
+        text-align: center;
+    }
+    header{
+        background-image: linear-gradient(to bottom, #08B858, #245238);
+        color: white;
+    }
+    header ul{
+        font-size: 15px;
+        list-style: none;
+        display:flex;
+        justify-content: left;
+        padding: 10px;
+        margin: 5px;
+        gap: 10px; 
+        font-size: small;  
+        
+    }
+    header a{
+        text-decoration: none;
+        color: white;
+    }
+    header a:hover{
+        color: rgba(7, 3, 228, 0.89);
+    }
+    main{
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+        
+    }
+    main h1{
+        font-family: 'idroid';
+        color: #135912;
+        font-size: larger;
+    }
+
+    main h2{
+        font-family: 'idroid';
+        background-image: linear-gradient(to right,#99FFA9, #F2FFF4);
+        color: #135912;
+        font-size: larger;
+    }
+   
+    
+    main p {
+        text-indent: 35px;
+    }  
+    main div{
+        margin: auto;
+    }
+    #androids{
+        margin: 20px;
+        padding: 20px;
+        background-color: #99FFA9;
+        
+    }
+    #androids h2{
+        background-color: #08B858;
+        color: white;
+    }
+    footer{
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    #androids{
+        text-indent: 35px;
+    }
+    #androids div{
+        display: flex;
+        gap: 20px;
+        
+    }
+    

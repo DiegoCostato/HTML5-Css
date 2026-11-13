@@ -1,0 +1,68 @@
+
+.menu-principal{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #636161;
+    display: flex; /*Alinha o menu principal na horizontal*/
+
+}
+.menu-principal > li {
+    position: relative; /*Base de posicionamento para o Submenu 1*/
+}
+.menu-principal a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.menu-principal a:hover{
+    background-color: #444;
+}
+.sub{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 10;
+}
+.drop:hover .sub{
+    display: block;
+}
+
+/* Primeiro Submenu (Abaixo do menu pricipal)*/
+.submenu-1{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    position: absolute;
+    top: 100%; /* Brota exatamente abaixo do item pai*/
+    left: 0;
+    display: none;/* Econdido por Padrão*/
+    z-index: 10;
+}
+/* Faz o primeiro submenu aparecer ao passar o mouse*/
+.dropdown:hover .submenu-1{
+    display: block;
+}
+/* Segundo SubMenu (Menu dentro do menu - Abre pra o lado)*/
+
+.submenu-2{
+     list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    position: absolute;
+    top: 100%; /* Brota exatamente abaixo do item pai*/
+    left: 0;
+    display: none;/* Econdido por Padrão*/
+    z-index: 10;
+}
+.dropdown-lado:hover .submenu-2{
+    display:block;
+}
